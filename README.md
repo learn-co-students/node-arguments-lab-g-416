@@ -9,7 +9,7 @@ In this lab, you will pass and access command-line arguments when working with N
 
 ## Introduction
 
-Knowing how to pass and access command-line arguments is important in building CLI tools or small programs like the program which gives a random number.
+Knowing how to pass and access command-line arguments is important in building CLI tools or small programs like the program which gives a random password.
 
 ![](password.png)
 
@@ -39,3 +39,5 @@ var generatePassword = function generatePassword(length, charset) {
 ```
 
 * [JavaScript password generator on Stackoverflow](http://stackoverflow.com/questions/1497481/javascript-password-generator)
+* [Password generator module](https://github.com/bermi/password-generator)
+
