@@ -9,7 +9,7 @@ In this lab, you will pass and access command-line arguments when working with N
 
 ## Introduction
 
-Knowing how to pass and access command-line arguments is important in building CLI tools or small programs like the program which gives a random number.
+I'm sure we all know those people that use the same password over and over again for all their online logins. That's obviously not safe because if someone hacks into one account, they can easily get into all of them. Your job is to build a CLI application that generates a random secure password. In order to generate the appropriate amount amount of passwords (sometimes you need two passwords!) with the appropriate number of characters, this application should accept two command-line arguments.
 
 ![](password.png)
 
