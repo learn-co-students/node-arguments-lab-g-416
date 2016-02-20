@@ -35,6 +35,8 @@ In the tests, you'll see `child_process`. It's a super easy and cool core module
 process = childProcess.spawn(command, [scriptName, cliArgument1, cliArgument2])
 ```
 
+Node's `child_process.spawn` is similar to how you run [multiple processes with Ruby with `Process.spawn`](https://en.wikibooks.org/wiki/Ruby_Programming/Running_Multiple_Processes).
+
 In this lab, we are using `child_process.spawn` to start your `password.js` script with arguments 140 and 1. Snippet goes like this:
 
 ```js
