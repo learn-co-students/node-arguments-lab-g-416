@@ -1,8 +1,6 @@
 # Node Arguments Lab
 
-You've been hired to enhance security at a major US bank amidst the breach in their database. As a security expert you know to that offering users randomly generated passwords will make it hardly for pesky hackers to brute force the attack. This app must use command-line interface and be flexible to be used for passwords of different length and for various number of passwords.
 
-In this lab, you will pass and access command-line arguments to implement a CLI app which generates random passwords.
 
 ## Objectives
 
@@ -10,6 +8,10 @@ In this lab, you will pass and access command-line arguments to implement a CLI 
 1. Use two CLI arguments as the input of the app: one for length of the password and another for the number of randomly generated passwords.
 
 ## Introduction
+
+You've been hired to enhance security at a major US bank amidst the breach in their database. As a security expert you know to that offering users randomly generated passwords will make it hardly for pesky hackers to brute force the attack. This app must use command-line interface and be flexible to be used for passwords of different length and for various number of passwords.
+
+In this lab, you will pass and access command-line arguments to implement a CLI app which generates random passwords.
 
 Knowing how to pass and access command-line arguments is important in building CLI tools or small programs like the program which gives a random number.
 
