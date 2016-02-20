@@ -29,4 +29,22 @@ Knowing how to pass and access command-line arguments is important in building C
 
 ### Extra Info
 
+In the tests, you'll see `child_process`. It's a super easy and cool core module which allows you to start any other programs/processes from within your Node app. All you do is pass parameters to `spawn()`:
+
+```js
+process = childProcess.spawn(command, [scriptName, cliArgument1, cliArgument2])
+```
+
+In this lab, we are using `child_process.spawn` to start your `password.js` script with arguments 140 and 1. Snippet goes like this:
+
+```js
+passwordAppProcess = cp.spawn('node', ['password', '140', '1'])
+passwordAppProcess.stdout.on('data', (data) => {
+  // data is the output of the password.js  script
+  passwordAppProcess.kill() 
+})
+```
+
+`kill()` is the command to terminate the child process (your `password.js` program).
+
 * [JavaScript password generator on Stackoverflow](http://stackoverflow.com/questions/1497481/javascript-password-generator)
