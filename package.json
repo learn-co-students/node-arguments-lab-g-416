@@ -1,0 +1,23 @@
+{
+  "name": "node-arguments-lab",
+  "version": "1.0.0",
+  "description": "Node Arguments Lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-co-curriculum/node-arguments-lab.git"
+  },
+  "author": "Azat Mardan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/node-arguments-lab/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/node-arguments-lab#readme",
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "chai": "3.5.0"
+  }
+}
