@@ -24,12 +24,12 @@ var length = parseInt(process.argv[2], 10),
 	numPws = parseInt(process.argv[3], 10);
 
 if (!(length >= 0)) {
-	console.log('Password length must be a positive integer.')
+	console.log('Password length must be a positive integer.');
 	process.exit(1);
 }
 
 if (!(numPws >= 0)) {
-	console.log('Number of passwords must be a positive integer.')
+	console.log('Number of passwords must be a positive integer.');
 	process.exit(1);
 }
 
