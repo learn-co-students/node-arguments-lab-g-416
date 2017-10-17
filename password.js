@@ -16,7 +16,7 @@ if (typeof process.argv[2] !== 'string' ||
 	typeof process.argv[3] !== 'string' ||
 	process.argv[3].length === 0) {
 
-	console.log('Please provide two integer arguments for password length and number of passwords.');
+	console.log('Please provide two positive integer arguments for password length and number of passwords.');
 	process.exit(1);
 }
 
