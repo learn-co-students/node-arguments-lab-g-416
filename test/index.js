@@ -9,8 +9,8 @@ describe('"$ node password 140 1" command', function () {
       data = data.toString('utf8').replace('\n','')
       expect(data.length).to.equal(140)
       passwordAppProcess.kill()
-      done()
     })
+    done();
   })
 })
 
@@ -21,7 +21,8 @@ describe('"$ node password 10 2" command', function () {
       data = data.toString('utf8').replace('\n','')
       expect(data.length).to.equal(10)
       passwordAppProcess.kill()
-      done()
+
     })
+    done();
   })
 })
