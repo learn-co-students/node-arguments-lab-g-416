@@ -1,5 +1,5 @@
 // code solution here
-
+console.log(process.argv);
 function generatePassword(num) {
   let password = '';
   let randNum;
