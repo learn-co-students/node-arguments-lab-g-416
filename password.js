@@ -19,3 +19,4 @@ while (n<numPasswords){
     console.log(generatePassword(length))
     n++;
 }
+process.exit(0);
