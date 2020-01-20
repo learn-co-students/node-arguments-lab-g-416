@@ -1,9 +1,9 @@
 // code solution here
-var generatePassword = function generatePassword(length, charset) {
-  var length = length || 8,
+var generatePassword = function generatePassword(num) {
+  var num = num || 8,
     charset = charset || 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789',
     password = '';
-  for (var i = 0, n = charset.length; i < length; ++i) {
+  for (var i = 0, n = charset.length; i < num; ++i) {
     password += charset.charAt(Math.floor(Math.random() * n))
   }
   return password
