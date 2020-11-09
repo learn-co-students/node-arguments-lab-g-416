@@ -19,5 +19,9 @@
   "devDependencies": {
     "mocha": "2.4.5",
     "chai": "3.5.0"
+  },
+  "dependencies": {
+    "generate-password": "^1.5.1",
+    "mocha-multi": "^1.1.3"
   }
 }
