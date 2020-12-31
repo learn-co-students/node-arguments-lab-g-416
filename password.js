@@ -14,9 +14,9 @@ function generatePassword(){
     return passwordChars.join("");
 }
 
-(function runCheck(){
-    if(process.argv.length <= 3){
-        console.log("Please provide values o generate password");
+(function runPreGeneratePassword(){
+    if(process.argv.length <= 3 || !parseInt(process.argv[2]) || !parseInt(process.argv[3])){
+        console.log("Please provide non-zero values to generate password \n");
     } else {
         for(i = 0; i < process.argv[3]; i++){
             console.log(generatePassword());
